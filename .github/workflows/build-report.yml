@@ -1,0 +1,56 @@
+name: Build Study Reports
+
+on:
+  workflow_dispatch:
+
+  issues:
+    types: [opened]
+
+  issue_comment:
+    types: [created]
+
+  schedule:
+    - cron: "5 15 * * *"  # KST 00:05
+
+concurrency:
+  group: study-report
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Build reports
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/build_reports.py
+
+      - name: Commit reports
+        run: |
+          git config user.name "study-bot"
+          git config user.email "study-bot@users.noreply.github.com"
+
+          git add reports
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "update study reports"
+            git push
+          fi
