@@ -1,0 +1,25 @@
+name: 공부 인증
+description: 오늘 공부한 내용을 기록합니다
+title: "[26xxxx] 공부 인증"
+labels: ["study"]
+
+body:
+  - type: textarea
+    id: til
+    attributes:
+      label: TIL
+      description: Today I Learned
+      placeholder: |
+        오늘 공부한 내용을 작성해주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tmi
+    attributes:
+      label: TMI
+      description: Optional
+      placeholder: |
+        자유롭게 작성하세요.
+    validations:
+      required: false
