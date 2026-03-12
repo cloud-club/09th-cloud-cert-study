@@ -15,4 +15,4 @@
 
 | User | Current | Best | Study History |
 |---|---|---|---|
-| 빈정원 | 1 | 1 | ✅ |
+| 빈정원 | 0 | 1 | ✅⬜ |
