@@ -1,0 +1,60 @@
+name: 자기소개
+description: 스터디 참여자를 위한 자기소개 작성
+title: "[자기소개] "
+labels: ["self-intro"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        클라우드 자격증 스터디에 오신 것을 환영합니다!  
+        아래 항목을 작성해서 자기소개를 해주세요.
+
+  - type: input
+    id: certification
+    attributes:
+      label: 목표 자격증
+      description: 준비하고 있는 클라우드 자격증을 작성해주세요.
+      placeholder: ex) CKA, AWS SAA, KCNA
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 자격증 취득하려는 이유
+      description: 왜 이 자격증을 취득하려고 하는지 작성해주세요.
+      placeholder: |
+        ex) Kubernetes 이해도를 높이고 싶어서
+    validations:
+      required: true
+
+  - type: textarea
+    id: progress
+    attributes:
+      label: 현재 진행 상황
+      description: 현재 공부 진행 상황을 작성해주세요.
+      placeholder: |
+        ex) 유데미 CKA 강의 수강 중
+    validations:
+      required: true
+
+  - type: textarea
+    id: plan
+    attributes:
+      label: 앞으로의 계획
+      description: 스터디 기간 동안의 공부 계획을 작성해주세요.
+      placeholder: |
+        ex) 유데미 CKA 강의 수강 완료 후 시험 응시
+    validations:
+      required: true
+
+  - type: textarea
+    id: resolution
+    attributes:
+      label: 각오 한마디!
+      description: 스터디 목표나 다짐을 작성해주세요.
+      placeholder: |
+        ex) 이번 스터디에서 꼭 CKA 합격하겠습니다!
+    validations:
+      required: true
