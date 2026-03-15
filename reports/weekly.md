@@ -1,12 +1,12 @@
 # Week 1 (2026-03-09 ~ 2026-03-15)
 
-## 🏅 Weekly MVP: 빈정원 (7 points)
+## 🏅 Weekly MVP: 빈정원 (10 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 빈정원 | ⬜ | ⬜ | ⬜ | ✅+3 | ✅+3 | ⬜ | 💬+1 | 7 |
+| 빈정원 | ⬜ | ⬜ | ⬜ | ✅+3 | ✅+3 | ⬜ | ✅+3 💬+1 | 10 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
 | 김우현 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
 
@@ -25,6 +25,14 @@
 #### [260313] 공부 인증
 
 - 유데미 CKA 강의 섹션 4: Logging & Monitoring 수강 및 실습
+
+##
+
+#### [260315] 공부 인증
+
+- 유데미 CKA 강의 섹션 5: Application Lifecycle Management 수강 및 실습
+- 유데미 CKA 강의 섹션 6: Cluster Maintenance 수강 및 실습
+- 유데미 CKA 강의 섹션 7: Security 수강 및 실습
 
 ---
 
