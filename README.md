@@ -9,7 +9,7 @@
 
 | Name | GitHub | Target Certification |
 |:-:|:-:|---|
-| 빈정원 | [@congcoding](https://github.com/congcoding) | CKA |
+| 빈정원 | [@jwbeen](https://github.com/jwbeen) | CKA |
 | 최준현 | [@Cjunhyun](https://github.com/Cjunhyun) | Databricks Spark |
 | 김우현 | [@woody6624](https://github.com/woody6624) | CKA |
 | 정금종 | [@Floodnut](https://github.com/Floodnut) | CKA, 정보처리기사 |
