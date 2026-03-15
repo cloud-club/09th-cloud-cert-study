@@ -1,5 +1,5 @@
 USER_MAP = {
-    "congcoding": "빈정원",
+    "jwbeen": "빈정원",
     "Cjunhyun": "최준현",
     "woody6624": "김우현",
     "Floodnut": "정금종",
