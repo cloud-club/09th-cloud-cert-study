@@ -7,3 +7,9 @@
 
 ---
 
+## 👤 정금종
+
+- 2026-03-15 study +3 ([#8](https://github.com/cloud-club/09th-cloud-cert-study/issues/8))
+
+---
+
