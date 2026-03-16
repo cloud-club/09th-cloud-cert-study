@@ -13,7 +13,7 @@ CHEER_LIMIT = 3
 STUDY_START_DATE = "2026-03-12"
 
 # 누적 점수 시작일 (total score에만 반영)
-SCORE_START_DATE = "2026-03-12"
+SCORE_START_DATE = "2026-03-16"
 
 # 집계 제외 사용자
 EXCLUDED_USERS = {
