@@ -1,12 +1,13 @@
 # Week 2 (2026-03-16 ~ 2026-03-22)
 
-## 🏅 Weekly MVP: 최준현 (3 points)
+## 🏅 Weekly MVP: 정윤섭 (3 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
 | 최준현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
+| 정윤섭 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
@@ -22,4 +23,21 @@ https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFg
 
 [자격증 공부량 계획(?)]
 <img width="968" height="1364" alt="Image" src="https://github.com/user-attachments/assets/7703a3ad-c586-4df2-a5db-2a93672c8182" />
+
+---
+
+### 👤 정윤섭
+
+#### [260316] 공부 인증
+
+**OPIc** 
+
+> 오픽노잼 책 공부
+
+- 오픽노잼 실전 모의고사 1,2회
+- 오픽노잼 롤플레이(AL 시리즈 11,12, 20) 
+
+> 오픽노잼 주제편
+
+- Comparsion 전략편 - 현재 / 과거 비교편
 

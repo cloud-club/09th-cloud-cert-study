@@ -22,6 +22,12 @@
 
 ---
 
+## 👤 정윤섭
+
+- 2026-03-16 study +3 ([#16](https://github.com/cloud-club/09th-cloud-cert-study/issues/16))
+
+---
+
 ## 👤 최준현
 
 - 2026-03-16 study +3 ([#15](https://github.com/cloud-club/09th-cloud-cert-study/issues/15))
