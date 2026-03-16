@@ -38,7 +38,7 @@ jobs:
 
       - name: Auto-assign author
         if: github.event_name == 'issues'
-        uses: toshimaru/auto-author-assign@v2
+        uses: toshimaru/auto-author-assign@v3.0.1
 
       - name: Build reports
         env:
