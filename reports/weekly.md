@@ -1,6 +1,6 @@
 # Week 2 (2026-03-16 ~ 2026-03-22)
 
-## 🏅 Weekly MVP: 정윤섭 (3 points)
+## 🏅 Weekly MVP: 김우현 (3 points)
 
 ## 📆 Week Score
 
@@ -8,6 +8,7 @@
 |---|---|---|---|---|---|---|---|---|
 | 최준현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 정윤섭 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
+| 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
@@ -40,4 +41,12 @@ https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFg
 > 오픽노잼 주제편
 
 - Comparsion 전략편 - 현재 / 과거 비교편
+
+---
+
+### 👤 김우현
+
+#### [260316] 공부 인증
+
+유데미 CKA 섹션 3 Scheduling - NodeSelectors까지 수강 및 실습(33%)
 

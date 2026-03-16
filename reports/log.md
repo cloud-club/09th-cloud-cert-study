@@ -2,6 +2,7 @@
 
 ## 👤 김우현
 
+- 2026-03-16 study +3 ([#17](https://github.com/cloud-club/09th-cloud-cert-study/issues/17))
 - 2026-03-15 study +3 ([#10](https://github.com/cloud-club/09th-cloud-cert-study/issues/10))
 
 ---
