@@ -36,6 +36,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Auto-assign author
+        if: github.event_name == 'issues'
+        uses: toshimaru/auto-author-assign@v2
+
       - name: Build reports
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
