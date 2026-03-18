@@ -8,8 +8,8 @@
 |---|---|---|---|---|---|---|---|---|
 | 빈정원 | ✅+3 💬+3 | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 10 |
 | 정윤섭 | ✅+3 | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 7 |
+| 정금종 | ⬜ | ⬜ | ⬜ | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | 4 |
 | 최준현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
-| 정금종 | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | 3 |
 | 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
@@ -55,6 +55,15 @@
 
 ---
 
+### 👤 정금종
+
+#### [260318] 공부 인증
+
+Section 3 - Scheduling
+Section 4- Logging & Monitoring
+
+---
+
 ### 👤 최준현
 
 #### [260316] 공부 인증
@@ -65,15 +74,6 @@ https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFg
 
 [자격증 공부량 계획(?)]
 <img width="968" height="1364" alt="Image" src="https://github.com/user-attachments/assets/7703a3ad-c586-4df2-a5db-2a93672c8182" />
-
----
-
-### 👤 정금종
-
-#### [260318] 공부 인증
-
-Section 3 - Scheduling
-Section 4- Logging & Monitoring
 
 ---
 
