@@ -17,6 +17,12 @@
 
 ---
 
+## 👤 정금종
+
+- 2026-03-19 study +3 ([#21](https://github.com/cloud-club/09th-cloud-cert-study/issues/21))
+
+---
+
 ## 👤 정윤섭
 
 - 2026-03-18 cheer +1 ([#20](https://github.com/cloud-club/09th-cloud-cert-study/issues/20))
