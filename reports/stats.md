@@ -4,7 +4,7 @@
 
 | Study 인증 | Cheer 댓글 | 시험 합격 | 시험 불합격 | Total Study Days |
 |:---:|:---:|:---:|:---:|:---:|
-| 9 | 6 | 0 | 0 | 4 days |
+| 9 | 7 | 0 | 0 | 4 days |
 
 ## 📅 Study Activity by Weekday
 
