@@ -1,13 +1,13 @@
 # Week 2 (2026-03-16 ~ 2026-03-22)
 
-## 🏅 Weekly MVP: 정윤섭 (10 points)
+## 🏅 Weekly MVP: 빈정원 (13 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
+| 빈정원 | ✅+3 💬+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 | ⬜ | ⬜ | 13 |
 | 정윤섭 | ✅+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 | ⬜ | ⬜ | 10 |
-| 빈정원 | ✅+3 💬+3 | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 10 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | 4 |
 | 최준현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
@@ -15,6 +15,27 @@
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
 ## 📚 TIL Summary
+
+### 👤 빈정원
+
+#### [260316] 공부 인증
+
+- 유데미 CKA 강의 섹션 8: Storage 수강 및 실습
+
+##
+
+#### [260317] 공부 인증
+
+- Claude Code in Action 수료 (https://verify.skilljar.com/c/rfcaqj6jsknz)
+
+##
+
+#### [260320] 공부 인증
+
+- 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
+  - 211. Networking - Introduction ~ 217. FAQ
+
+---
 
 ### 👤 정윤섭
 
@@ -50,20 +71,6 @@
 **오픽노잼 Comparison**
 -  IM 시리즈 22 
 - MP -> 과거 -> 현재 -> 결론 형태로 진행
-
----
-
-### 👤 빈정원
-
-#### [260316] 공부 인증
-
-- 유데미 CKA 강의 섹션 8: Storage 수강 및 실습
-
-##
-
-#### [260317] 공부 인증
-
-- Claude Code in Action 수료 (https://verify.skilljar.com/c/rfcaqj6jsknz)
 
 ---
 
