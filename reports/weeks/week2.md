@@ -1,12 +1,12 @@
 # Week 2 (2026-03-16 ~ 2026-03-22)
 
-## 🏅 Weekly MVP: 빈정원 (15 points)
+## 🏅 Weekly MVP: 빈정원 (18 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 빈정원 | ✅+3 💬+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 💬+2 | ⬜ | ⬜ | 15 |
+| 빈정원 | ✅+3 💬+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 💬+2 | ✅+3 | ⬜ | 18 |
 | 정윤섭 | ✅+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 | ⬜ | ⬜ | 10 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | 4 |
 | 최준현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
@@ -34,6 +34,13 @@
 
 - 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
   - 211. Networking - Introduction ~ 217. FAQ
+
+##
+
+#### [260321] 공부 인증
+
+- 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
+  - 218. Prerequisite Docker Networking - 224. Pod Networking
 
 ---
 

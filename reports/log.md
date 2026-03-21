@@ -8,6 +8,7 @@
 
 ## 👤 빈정원
 
+- 2026-03-21 study +3 ([#24](https://github.com/cloud-club/09th-cloud-cert-study/issues/24))
 - 2026-03-20 study +3 ([#23](https://github.com/cloud-club/09th-cloud-cert-study/issues/23))
 - 2026-03-20 cheer +1 ([#22](https://github.com/cloud-club/09th-cloud-cert-study/issues/22))
 - 2026-03-20 cheer +1 ([#21](https://github.com/cloud-club/09th-cloud-cert-study/issues/21))
