@@ -8,9 +8,9 @@
 |---|---|---|---|---|---|---|---|---|
 | 빈정원 | ✅+3 💬+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 💬+2 | ✅+3 | ⬜ | 18 |
 | 정윤섭 | ✅+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 | 💬+1 | ⬜ | 11 |
+| 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 6 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | 4 |
 | 최준현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
-| 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
@@ -81,6 +81,21 @@
 
 ---
 
+### 👤 김우현
+
+#### [260316] 공부 인증
+
+유데미 CKA 섹션 3 Scheduling - NodeSelectors까지 수강 및 실습(33%)
+
+##
+
+#### [260321] 공부 인증
+
+유데미 CKA 섹션 3 Scheduling 수강 및 실습 완료
+유데미 CKA 섹션 4 Logging & Monitoring 수강 및 실습 완료
+
+---
+
 ### 👤 정금종
 
 #### [260318] 공부 인증
@@ -100,12 +115,4 @@ https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFg
 
 [자격증 공부량 계획(?)]
 <img width="968" height="1364" alt="Image" src="https://github.com/user-attachments/assets/7703a3ad-c586-4df2-a5db-2a93672c8182" />
-
----
-
-### 👤 김우현
-
-#### [260316] 공부 인증
-
-유데미 CKA 섹션 3 Scheduling - NodeSelectors까지 수강 및 실습(33%)
 
