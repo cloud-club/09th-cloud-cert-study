@@ -8,9 +8,9 @@
 |---|---|---|---|---|---|---|---|---|
 | 빈정원 | ✅+3 💬+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 💬+2 | ✅+3 | ⬜ | 18 |
 | 정윤섭 | ✅+3 | ✅+3 | 💬+1 | ⬜ | ✅+3 | 💬+1 | ⬜ | 11 |
+| 최준현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 6 |
 | 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 6 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | 4 |
-| 최준현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
@@ -81,6 +81,27 @@
 
 ---
 
+### 👤 최준현
+
+#### [260316] 공부 인증
+
+[Spark 유튜브 강의 정리]
+Apache Spark 이론 완전정복 🚀 | 탄생 배경부터 핵심 특징·아키텍처까지 한 번에!
+https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFgx-t&index=8
+
+[자격증 공부량 계획(?)]
+<img width="968" height="1364" alt="Image" src="https://github.com/user-attachments/assets/7703a3ad-c586-4df2-a5db-2a93672c8182" />
+
+##
+
+#### [26xxxx] 공부 인증
+
+- Spark 관련 유튜브 강의 4강까지 정리 완료 (총8강)
+  - https://www.youtube.com/@hyunsooIT/playlists
+- 토익 스피킹 (1,2 세션 연습)
+
+---
+
 ### 👤 김우현
 
 #### [260316] 공부 인증
@@ -102,17 +123,4 @@
 
 Section 3 - Scheduling
 Section 4- Logging & Monitoring
-
----
-
-### 👤 최준현
-
-#### [260316] 공부 인증
-
-[Spark 유튜브 강의 정리]
-Apache Spark 이론 완전정복 🚀 | 탄생 배경부터 핵심 특징·아키텍처까지 한 번에!
-https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFgx-t&index=8
-
-[자격증 공부량 계획(?)]
-<img width="968" height="1364" alt="Image" src="https://github.com/user-attachments/assets/7703a3ad-c586-4df2-a5db-2a93672c8182" />
 
