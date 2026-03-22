@@ -94,10 +94,14 @@ https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFg
 
 ##
 
-#### [26xxxx] 공부 인증
+#### [260322] 공부 인증
 
 - Spark 관련 유튜브 강의 4강까지 정리 완료 (총8강)
   - https://www.youtube.com/@hyunsooIT/playlists
+  - 1. Apache Spark 이론 완전정복 🚀 | 탄생 배경부터 핵심 특징·아키텍처까지 한 번에!
+  - 2. 설정 하나로 Spark 속도가 달라진다! 반드시 알아야 할 파티셔닝 핵심 원리 정리
+  - 3. Spark 필수 개념! Spark Session이 왜 필요한지 3가지 이유로 완벽 정리
+  - 4. Spark 작업 성능의 핵심! Spark 셔플(Shuffle)과 트랜스포메이션 완전 정리!
 - 토익 스피킹 (1,2 세션 연습)
 
 ---
