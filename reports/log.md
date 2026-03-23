@@ -28,6 +28,12 @@
 
 ---
 
+## 👤 원동희
+
+- 2026-03-23 study +3 ([#28](https://github.com/cloud-club/09th-cloud-cert-study/issues/28))
+
+---
+
 ## 👤 정금종
 
 - 2026-03-19 study +3 ([#21](https://github.com/cloud-club/09th-cloud-cert-study/issues/21))
