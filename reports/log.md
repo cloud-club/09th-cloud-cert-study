@@ -54,6 +54,12 @@
 
 ---
 
+## 👤 정지우
+
+- 2026-03-23 study +3 ([#30](https://github.com/cloud-club/09th-cloud-cert-study/issues/30))
+
+---
+
 ## 👤 최준현
 
 - 2026-03-22 study +3 ([#26](https://github.com/cloud-club/09th-cloud-cert-study/issues/26))
