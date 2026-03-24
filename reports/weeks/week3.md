@@ -1,21 +1,30 @@
 # Week 3 (2026-03-23 ~ 2026-03-29)
 
-## 🏅 Weekly MVP: 정지우 (3 points)
+## 🏅 Weekly MVP: 빈정원 (6 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
+| 빈정원 | 💬+3 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 손민우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 정윤섭 | 💬+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 원동희 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 정지우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
-| 빈정원 | 💬+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
 ## 📚 TIL Summary
+
+### 👤 빈정원
+
+#### [260324] 공부 인증
+
+- 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
+  - `225. CNI in kubernetes - 234. Lab Solution - Service Networking (optional)`
+
+---
 
 ### 👤 손민우
 
@@ -51,12 +60,6 @@ Section2: Core Concepts
 오늘은 두문제를 풀고 Amazon S3 Transfer Acceleration, Amazon Athena를 정리했습니다.
 
 정리한 내용은 블로그를 새로 파고 거기다 올릴 예정입니다. 만들면 정리본 링크도 인증에 올리겠습니다
-
----
-
-### 👤 빈정원
-
-- 이번 주 `#TIL` 기록 없음
 
 ---
 
