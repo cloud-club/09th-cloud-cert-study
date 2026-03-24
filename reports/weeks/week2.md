@@ -33,7 +33,7 @@
 #### [260320] 공부 인증
 
 - 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
-  - 211. Networking - Introduction ~ 217. FAQ
+  - `211. Networking - Introduction ~ 217. FAQ`
 
 ##
 
