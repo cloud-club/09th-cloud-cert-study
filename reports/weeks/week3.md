@@ -1,13 +1,13 @@
 # Week 3 (2026-03-23 ~ 2026-03-29)
 
-## 🏅 Weekly MVP: 정윤섭 (6 points)
+## 🏅 Weekly MVP: 빈정원 (7 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
+| 빈정원 | 💬+3 | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 7 |
 | 정윤섭 | 💬+3 | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
-| 빈정원 | 💬+3 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 손민우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 원동희 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 정지우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
@@ -16,6 +16,15 @@
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
 ## 📚 TIL Summary
+
+### 👤 빈정원
+
+#### [260324] 공부 인증
+
+- 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
+  - `225. CNI in kubernetes - 234. Lab Solution - Service Networking (optional)`
+
+---
 
 ### 👤 정윤섭
 
@@ -27,15 +36,6 @@
 - > root moudle 변수 값 우선 순위 구분
 - > 리소스 속성 참조와 cross-resource reference(Count, For each)
 - > 암묵적 의존성 / 명시적 의존성 정리
-
----
-
-### 👤 빈정원
-
-#### [260324] 공부 인증
-
-- 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
-  - `225. CNI in kubernetes - 234. Lab Solution - Service Networking (optional)`
 
 ---
 
