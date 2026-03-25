@@ -1,14 +1,14 @@
 # Week 3 (2026-03-23 ~ 2026-03-29)
 
-## 🏅 Weekly MVP: 빈정원 (6 points)
+## 🏅 Weekly MVP: 정윤섭 (6 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
+| 정윤섭 | 💬+3 | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 빈정원 | 💬+3 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 손민우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
-| 정윤섭 | 💬+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 원동희 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 정지우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
@@ -16,6 +16,19 @@
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
 ## 📚 TIL Summary
+
+### 👤 정윤섭
+
+#### [260325] 공부 인증
+
+- Terraform Associate 004 - Topic4 정리
+
+- > resource 와 data 블록 구분
+- > root moudle 변수 값 우선 순위 구분
+- > 리소스 속성 참조와 cross-resource reference(Count, For each)
+- > 암묵적 의존성 / 명시적 의존성 정리
+
+---
 
 ### 👤 빈정원
 
@@ -33,12 +46,6 @@
 <img width="923" height="1086" alt="Image" src="https://github.com/user-attachments/assets/594ff634-3a70-41a7-a74c-156470139ff8" />
 
 현재까지는.. 요렇습니당
-
----
-
-### 👤 정윤섭
-
-- 이번 주 `#TIL` 기록 없음
 
 ---
 
