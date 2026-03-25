@@ -1,12 +1,12 @@
 # Week 3 (2026-03-23 ~ 2026-03-29)
 
-## 🏅 Weekly MVP: 빈정원 (7 points)
+## 🏅 Weekly MVP: 빈정원 (10 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 빈정원 | 💬+3 | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 7 |
+| 빈정원 | 💬+3 | ✅+3 | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 10 |
 | 정윤섭 | 💬+3 | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 손민우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 원동희 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
@@ -23,6 +23,13 @@
 
 - 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
   - `225. CNI in kubernetes - 234. Lab Solution - Service Networking (optional)`
+
+##
+
+#### [260325] 공부 인증
+
+- 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
+  - `235. DNS in kubernetes - 248. (2025 Updates) Lab - Gateway API (2025 Updates)`
 
 ---
 
