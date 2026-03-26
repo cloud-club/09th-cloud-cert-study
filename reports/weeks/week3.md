@@ -1,12 +1,12 @@
 # Week 3 (2026-03-23 ~ 2026-03-29)
 
-## 🏅 Weekly MVP: 빈정원 (10 points)
+## 🏅 Weekly MVP: 빈정원 (13 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 빈정원 | 💬+3 | ✅+3 | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 10 |
+| 빈정원 | 💬+3 | ✅+3 | ✅+3 💬+1 | ✅+3 | ⬜ | ⬜ | ⬜ | 13 |
 | 정윤섭 | 💬+3 | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 손민우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 원동희 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
@@ -30,6 +30,12 @@
 
 - 유데미 CKA 강의 섹션 9: Networking 수강 및 실습
   - `235. DNS in kubernetes - 248. (2025 Updates) Lab - Gateway API (2025 Updates)`
+
+##
+
+#### [260326] 공부 인증
+
+- Claude 101 수료 (https://verify.skilljar.com/c/zqtpq7q4ctz7)
 
 ---
 
