@@ -1,12 +1,12 @@
 # Week 3 (2026-03-23 ~ 2026-03-29)
 
-## 🏅 Weekly MVP: 빈정원 (16 points)
+## 🏅 Weekly MVP: 빈정원 (19 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 빈정원 | 💬+3 | ✅+3 | ✅+3 💬+1 | ✅+3 | ✅+3 | ⬜ | ⬜ | 16 |
+| 빈정원 | 💬+3 | ✅+3 | ✅+3 💬+1 | ✅+3 | ✅+3 | ✅+3 | ⬜ | 19 |
 | 정윤섭 | 💬+3 | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 김우현 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 6 |
 | 손민우 | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
@@ -43,6 +43,13 @@
 
 - 유데미 CKA 강의 섹션 10: Design and Install a Kubernetes Cluster 수강
 - 유데미 CKA 강의 섹션 11: Install "Kubernetes the kubeadm way" 수강
+
+##
+
+#### [260328] 공부 인증
+
+- 유데미 CKA 강의 섹션 14: Troubleshooting 수강 및 실습
+- 유튜브 CKA dump 강의 수강
 
 ---
 
