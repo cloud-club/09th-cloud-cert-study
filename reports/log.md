@@ -36,6 +36,7 @@
 
 ## 👤 손민우
 
+- 2026-03-29 cheer +1 ([#34](https://github.com/cloud-club/09th-cloud-cert-study/issues/34))
 - 2026-03-23 study +3 ([#27](https://github.com/cloud-club/09th-cloud-cert-study/issues/27))
 
 ---
