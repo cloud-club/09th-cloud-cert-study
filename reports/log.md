@@ -1,5 +1,11 @@
 # 🧾 Score Log
 
+## 👤 고희주
+
+- 2026-03-31 study +3 ([#43](https://github.com/cloud-club/09th-cloud-cert-study/issues/43))
+
+---
+
 ## 👤 김우현
 
 - 2026-03-28 study +3 ([#36](https://github.com/cloud-club/09th-cloud-cert-study/issues/36))
