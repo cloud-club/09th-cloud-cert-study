@@ -1,12 +1,13 @@
 # Week 4 (2026-03-30 ~ 2026-04-05)
 
-## 🏅 Weekly MVP: 고희주 (3 points)
+## 🏅 Weekly MVP: 정윤섭 (3 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
 | 고희주 | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
+| 정윤섭 | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 빈정원 | ⬜ | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 1 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
@@ -19,6 +20,20 @@
 
 - AWS SAA 3시간 완성 강의 수강 (https://youtu.be/zBwikdaBqGA?si=EhfXzvp4e_qm3_fW)
    - Cloud 기본 개념 및 AWS 빈출 서비스 노션 정리 및 문제 풀이
+
+---
+
+### 👤 정윤섭
+
+#### [260331] 공부 인증
+
+- Terraform Associate 004 - Topic5 정리
+
+- > Root Module -> Child Module일때는 variable 변수로 전달하기 / Child -> Root 일때는 output을 통해 전달 / local 통해서 모듈 내부 전용 값
+- > module도 for_each / count로 생성 가능(resource랑 똑같이 적용됨)
+- > Source 개념 정리 완료 
+- > module에서 source, registry version이 바뀌면 terraform init을 다시 실행할 것(버전 업하는 방법은 terraform init - upgrade)
+- > 모듈 구조는 flat module tree를 권장
 
 ---
 
