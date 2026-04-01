@@ -1,19 +1,28 @@
 # Week 4 (2026-03-30 ~ 2026-04-05)
 
-## 🏅 Weekly MVP: 정윤섭 (4 points)
+## 🏅 Weekly MVP: 빈정원 (5 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
+| 빈정원 | ⬜ | 💬+1 | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 5 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 4 |
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 4 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
-| 빈정원 | ⬜ | 💬+1 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 2 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
 ## 📚 TIL Summary
+
+### 👤 빈정원
+
+#### [260401] 공부 인증
+
+- 유튜브 CKA dump 강의 1~5 수강
+  - https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl
+
+---
 
 ### 👤 고희주
 
@@ -45,10 +54,4 @@
 **[인프런]**
 Certified Kubernetes Administrator (CKA) – Practical Exam Guide
 섹션1, 2, 3, 4, 5, 6 개념 완강
-
----
-
-### 👤 빈정원
-
-- 이번 주 `#TIL` 기록 없음
 
