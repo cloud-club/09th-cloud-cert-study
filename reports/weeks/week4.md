@@ -8,6 +8,7 @@
 |---|---|---|---|---|---|---|---|---|
 | 고희주 | ⬜ | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 4 |
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 4 |
+| 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 | 빈정원 | ⬜ | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 1 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
@@ -34,6 +35,16 @@
 - > Source 개념 정리 완료 
 - > module에서 source, registry version이 바뀌면 terraform init을 다시 실행할 것(버전 업하는 방법은 terraform init - upgrade)
 - > 모듈 구조는 flat module tree를 권장
+
+---
+
+### 👤 김우현
+
+#### [260401] 공부 인증
+
+**[인프런]**
+Certified Kubernetes Administrator (CKA) – Practical Exam Guide
+섹션1, 2, 3, 4, 5, 6 개념 완강
 
 ---
 
