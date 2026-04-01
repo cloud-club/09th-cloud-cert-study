@@ -1,12 +1,12 @@
 # Week 4 (2026-03-30 ~ 2026-04-05)
 
-## 🏅 Weekly MVP: 빈정원 (5 points)
+## 🏅 Weekly MVP: 빈정원 (6 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 빈정원 | ⬜ | 💬+1 | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 5 |
+| 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 4 |
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 4 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
@@ -19,8 +19,7 @@
 
 #### [260401] 공부 인증
 
-- 유튜브 CKA dump 강의 1~5 수강
-  - https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
 
 ---
 
