@@ -1,13 +1,13 @@
 # Week 4 (2026-03-30 ~ 2026-04-05)
 
-## 🏅 Weekly MVP: 빈정원 (6 points)
+## 🏅 Weekly MVP: 빈정원 (9 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
+| 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | ⬜ | 9 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ⬜ | 6 |
-| 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ⬜ | ⬜ | ⬜ | ⬜ | 6 |
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | 4 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
@@ -15,20 +15,26 @@
 
 ## 📚 TIL Summary
 
+### 👤 빈정원
+
+#### [260401] 공부 인증
+
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
+
+##
+
+#### [260402] 공부 인증
+
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 6~17 수강
+
+---
+
 ### 👤 고희주
 
 #### [260331] 공부 인증
 
 - AWS SAA 3시간 완성 강의 수강 (https://youtu.be/zBwikdaBqGA?si=EhfXzvp4e_qm3_fW)
    - Cloud 기본 개념 및 AWS 빈출 서비스 노션 정리 및 문제 풀이
-
----
-
-### 👤 빈정원
-
-#### [260401] 공부 인증
-
-- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
 
 ---
 
