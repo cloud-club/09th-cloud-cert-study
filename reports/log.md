@@ -84,6 +84,7 @@
 
 - 2026-04-04 study +3 ([#48](https://github.com/cloud-club/09th-cloud-cert-study/issues/48))
 - 2026-04-03 cheer +1 ([#47](https://github.com/cloud-club/09th-cloud-cert-study/issues/47))
+- 2026-04-04 cheer +1 ([#45](https://github.com/cloud-club/09th-cloud-cert-study/issues/45))
 - 2026-03-31 study +3 ([#44](https://github.com/cloud-club/09th-cloud-cert-study/issues/44))
 - 2026-04-01 cheer +1 ([#43](https://github.com/cloud-club/09th-cloud-cert-study/issues/43))
 - 2026-03-25 study +3 ([#32](https://github.com/cloud-club/09th-cloud-cert-study/issues/32))

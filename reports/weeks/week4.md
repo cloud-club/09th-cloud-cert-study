@@ -1,33 +1,19 @@
 # Week 4 (2026-03-30 ~ 2026-04-05)
 
-## 🏅 Weekly MVP: 빈정원 (9 points)
+## 🏅 Weekly MVP: 정윤섭 (9 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
+| 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ⬜ | 9 |
 | 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | ⬜ | 9 |
-| 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 | ⬜ | 8 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ⬜ | 6 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
 ## 📚 TIL Summary
-
-### 👤 빈정원
-
-#### [260401] 공부 인증
-
-- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
-
-##
-
-#### [260402] 공부 인증
-
-- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 6~17 수강
-
----
 
 ### 👤 정윤섭
 
@@ -52,6 +38,20 @@
 - > terraform init -backend-config=PATH (partial configuration): init을 진행하는 과정에서 인자를 채우는 방식
 - > plan, apply 이전에 자동 refresh 를 통해 drift 예방
 - > moved , removed 블록 / CLI 사용법 정리
+
+---
+
+### 👤 빈정원
+
+#### [260401] 공부 인증
+
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
+
+##
+
+#### [260402] 공부 인증
+
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 6~17 수강
 
 ---
 
