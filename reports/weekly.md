@@ -7,8 +7,8 @@
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
 | 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | ⬜ | 9 |
+| 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 | ⬜ | 8 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ⬜ | 6 |
-| 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ⬜ | ⬜ | 5 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
@@ -29,15 +29,6 @@
 
 ---
 
-### 👤 고희주
-
-#### [260331] 공부 인증
-
-- AWS SAA 3시간 완성 강의 수강 (https://youtu.be/zBwikdaBqGA?si=EhfXzvp4e_qm3_fW)
-   - Cloud 기본 개념 및 AWS 빈출 서비스 노션 정리 및 문제 풀이
-
----
-
 ### 👤 정윤섭
 
 #### [260331] 공부 인증
@@ -49,6 +40,27 @@
 - > Source 개념 정리 완료 
 - > module에서 source, registry version이 바뀌면 terraform init을 다시 실행할 것(버전 업하는 방법은 terraform init - upgrade)
 - > 모듈 구조는 flat module tree를 권장
+
+##
+
+#### [260404] 공부 인증
+
+- Terraform Associate 004 - Topic6,7 정리
+
+- > local backend VS remote backend 정리
+- > remote state / local state 차이점 정리
+- > terraform init -backend-config=PATH (partial configuration): init을 진행하는 과정에서 인자를 채우는 방식
+- > plan, apply 이전에 자동 refresh 를 통해 drift 예방
+- > moved , removed 블록 / CLI 사용법 정리
+
+---
+
+### 👤 고희주
+
+#### [260331] 공부 인증
+
+- AWS SAA 3시간 완성 강의 수강 (https://youtu.be/zBwikdaBqGA?si=EhfXzvp4e_qm3_fW)
+   - Cloud 기본 개념 및 AWS 빈출 서비스 노션 정리 및 문제 풀이
 
 ---
 
