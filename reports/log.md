@@ -72,6 +72,7 @@
 
 ## 👤 정금종
 
+- 2026-04-04 study +3 ([#49](https://github.com/cloud-club/09th-cloud-cert-study/issues/49))
 - 2026-03-29 study +3 ([#39](https://github.com/cloud-club/09th-cloud-cert-study/issues/39))
 - 2026-03-29 cheer +1 ([#38](https://github.com/cloud-club/09th-cloud-cert-study/issues/38))
 - 2026-03-29 cheer +1 ([#37](https://github.com/cloud-club/09th-cloud-cert-study/issues/37))
