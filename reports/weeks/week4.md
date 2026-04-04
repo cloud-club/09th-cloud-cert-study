@@ -1,12 +1,12 @@
 # Week 4 (2026-03-30 ~ 2026-04-05)
 
-## 🏅 Weekly MVP: 정윤섭 (9 points)
+## 🏅 Weekly MVP: 정윤섭 (12 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ⬜ | 9 |
+| 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ✅+3 | 12 |
 | 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | ⬜ | 9 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ⬜ | 6 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 3 |
@@ -39,6 +39,14 @@
 - > terraform init -backend-config=PATH (partial configuration): init을 진행하는 과정에서 인자를 채우는 방식
 - > plan, apply 이전에 자동 refresh 를 통해 drift 예방
 - > moved , removed 블록 / CLI 사용법 정리
+
+##
+
+#### [260405] 공부 인증
+
+- terraform-associate-004-practice-exams Udemy 모의고사 1회 클리어
+- terraform-associate-004 덤프 128문제 클리어
+- Validation, Precondition, Postcondition Block 정리 완료
 
 ---
 
