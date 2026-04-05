@@ -10,6 +10,7 @@
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ✅+3 💬+2 | 14 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+3 💬+2 | 11 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 3 |
+| 정지우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
@@ -102,6 +103,28 @@
 #### [260404] 공부 인증
 
 Section7: Security (~50%)
+
+---
+
+### 👤 정지우
+
+#### [260405] 공부 인증
+
+이번주에는 덤프는 못풀었지만, 면접과 과제테스트를 준비하면서 아래 AWS 개념들을 공부했습니다
+
+vpc과 온프레미스 간 연결 옵션
+- direct connect / site-to-site vpn
+
+vpc 간 연결 옵션
+- transit gateway / vpc peering / private link (더 있지만 이 옵션들만 공부했습니다)
+
+multi-account strategy
+- organization unit
+- aws control tower
+
+*저저번주에 공부한 내용 블로그에 정리했습니다. 이번주것도 차차.. 여유 생기면 할 예정입니다.
+- https://jiu-jung.github.io/amazon-s3-transfer-acceleration/
+- https://jiu-jung.github.io/amazon-athena/
 
 ---
 
