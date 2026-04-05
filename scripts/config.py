@@ -1,6 +1,6 @@
 STUDY_LABEL = "study"
-PASS_LABEL = "exam-pass"
-FAIL_LABEL = "exam-fail"
+PASS_LABEL = "cert-pass"
+FAIL_LABEL = "cert-fail"
 
 STUDY_SCORE = 3
 CHEER_SCORE = 1
