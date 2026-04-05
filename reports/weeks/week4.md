@@ -11,6 +11,7 @@
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+3 💬+2 | 11 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ✅+3 | 6 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 3 |
+| 원동희 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
 | 정지우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
@@ -120,6 +121,14 @@ Certified Kubernetes Administrator (CKA) – Practical Exam Guide
 #### [260404] 공부 인증
 
 Section7: Security (~50%)
+
+---
+
+### 👤 원동희
+
+#### [260405] 공부 인증
+
+Section 4: Logging & Monitoring
 
 ---
 
