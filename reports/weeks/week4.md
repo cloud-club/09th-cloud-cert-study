@@ -1,14 +1,14 @@
 # Week 4 (2026-03-30 ~ 2026-04-05)
 
-## 🏅 Weekly MVP: 정윤섭 (12 points)
+## 🏅 Weekly MVP: 빈정원 (12 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ✅+3 | 12 |
+| 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | 💬+3 | 12 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+3 💬+2 | 11 |
-| 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | 💬+2 | 11 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 3 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
@@ -50,6 +50,20 @@
 
 ---
 
+### 👤 빈정원
+
+#### [260401] 공부 인증
+
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
+
+##
+
+#### [260402] 공부 인증
+
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 6~17 수강
+
+---
+
 ### 👤 고희주
 
 #### [260331] 공부 인증
@@ -71,20 +85,6 @@
   - EFS
   - FSx
   - 문제 풀이
-
----
-
-### 👤 빈정원
-
-#### [260401] 공부 인증
-
-- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
-
-##
-
-#### [260402] 공부 인증
-
-- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 6~17 수강
 
 ---
 
