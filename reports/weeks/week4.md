@@ -7,8 +7,8 @@
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
 | 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | ✅+3 💬+3 | 15 |
+| 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+6 💬+2 | 14 |
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ✅+3 💬+2 | 14 |
-| 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+3 💬+2 | 11 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ✅+3 | 6 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 3 |
 | 원동희 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
@@ -38,6 +38,47 @@
 - RHCSA 합격 후기 찾아보기
 - RHCSA Rapid Track(RH199) 강의 수강 및 실습
   - 1장. Red Hat 지원을 위한 시스템 등록
+
+---
+
+### 👤 고희주
+
+#### [260331] 공부 인증
+
+- AWS SAA 3시간 완성 강의 수강 (https://youtu.be/zBwikdaBqGA?si=EhfXzvp4e_qm3_fW)
+   - Cloud 기본 개념 및 AWS 빈출 서비스 노션 정리 및 문제 풀이
+
+##
+
+#### [260404] 공부 인증
+
+- **S3**
+  - 스토리지 클래스 유형
+  - 버전 관리, 객체 잠금, 수명 주기 정책
+  - 암호화
+  - 문제 풀이
+- **스토리지**
+  - EBS
+  - EFS
+  - FSx
+  - 문제 풀이
+
+##
+
+#### [260405] 공부 인증
+
+- **데이터 전송**
+  - DataSync
+  - Snowball Edge
+  - Transfer Family
+  - Storage Gateway
+  - 문제 풀이
+- **데이터베이스**
+  - RDS
+  - Aurora
+  - DynamoDB
+  - ElastiCache
+  - 문제 풀이
 
 ---
 
@@ -72,30 +113,6 @@
 - terraform-associate-004-practice-exams Udemy 모의고사 1회 클리어
 - terraform-associate-004 덤프 128문제 클리어
 - Validation, Precondition, Postcondition Block 정리 완료
-
----
-
-### 👤 고희주
-
-#### [260331] 공부 인증
-
-- AWS SAA 3시간 완성 강의 수강 (https://youtu.be/zBwikdaBqGA?si=EhfXzvp4e_qm3_fW)
-   - Cloud 기본 개념 및 AWS 빈출 서비스 노션 정리 및 문제 풀이
-
-##
-
-#### [260404] 공부 인증
-
-- **S3**
-  - 스토리지 클래스 유형
-  - 버전 관리, 객체 잠금, 수명 주기 정책
-  - 암호화
-  - 문제 풀이
-- **스토리지**
-  - EBS
-  - EFS
-  - FSx
-  - 문제 풀이
 
 ---
 
