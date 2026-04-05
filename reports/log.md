@@ -67,6 +67,7 @@
 
 ## 👤 손민우
 
+- 2026-04-05 study +3 ([#58](https://github.com/cloud-club/09th-cloud-cert-study/issues/58))
 - 2026-03-29 study +3 ([#40](https://github.com/cloud-club/09th-cloud-cert-study/issues/40))
 - 2026-03-29 cheer +1 ([#36](https://github.com/cloud-club/09th-cloud-cert-study/issues/36))
 - 2026-03-29 cheer +1 ([#34](https://github.com/cloud-club/09th-cloud-cert-study/issues/34))
