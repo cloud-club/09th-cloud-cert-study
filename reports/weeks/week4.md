@@ -9,9 +9,9 @@
 | 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | ✅+3 💬+3 | 15 |
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ✅+3 💬+2 | 14 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+3 💬+2 | 11 |
+| 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ✅+3 | 6 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 3 |
 | 정지우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
-| 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ⬜ | 3 |
 
 - Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
 
@@ -98,6 +98,23 @@
 
 ---
 
+### 👤 김우현
+
+#### [260401] 공부 인증
+
+**[인프런]**
+Certified Kubernetes Administrator (CKA) – Practical Exam Guide
+섹션1, 2, 3, 4, 5, 6 개념 완강
+
+##
+
+#### [260405] 공부 인증
+
+인프런 CKA – Practical Exam Guide
+섹션 1, 2, 3, 4 문제 풀이 완료
+
+---
+
 ### 👤 정금종
 
 #### [260404] 공부 인증
@@ -125,14 +142,4 @@ multi-account strategy
 *저저번주에 공부한 내용 블로그에 정리했습니다. 이번주것도 차차.. 여유 생기면 할 예정입니다.
 - https://jiu-jung.github.io/amazon-s3-transfer-acceleration/
 - https://jiu-jung.github.io/amazon-athena/
-
----
-
-### 👤 김우현
-
-#### [260401] 공부 인증
-
-**[인프런]**
-Certified Kubernetes Administrator (CKA) – Practical Exam Guide
-섹션1, 2, 3, 4, 5, 6 개념 완강
 
