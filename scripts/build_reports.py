@@ -243,7 +243,7 @@ def render_week_md(
         row.append(str(total_score))
         lines.append("| " + " | ".join(row) + " |\n")
 
-    lines.append("\n- Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점, Study는 하루 1회만 인정)\n\n")
+    lines.append("\n- Legend: ✅ Study +3 (하루 1회만 인정), 💬 Cheer +1 (하루 최대 3점)\n\n")
     lines.append("## 📚 TIL Summary\n\n")
 
     for idx_user, u in enumerate(users_for_week):
