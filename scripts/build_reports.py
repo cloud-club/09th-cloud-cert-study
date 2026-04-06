@@ -169,18 +169,16 @@ def format_week_cell(study_score: int, cheer_score: int) -> str:
     return " ".join(parts) if parts else "⬜"
 
 
-def format_score_by_week_cell(study_score: int, cheer_score: int, exam_score: int) -> str:
+def format_score_by_week_cell(study_score: int, cheer_score: int, pass_score: int, fail_score: int) -> str:
     parts = []
     if study_score > 0:
         parts.append(f"✅{study_score}")
     if cheer_score > 0:
         parts.append(f"💬{cheer_score}")
-    if exam_score == PASS_SCORE:
-        parts.append(f"🥳{exam_score}")
-    elif exam_score == FAIL_SCORE:
-        parts.append(f"😭{exam_score}")
-    elif exam_score > 0:
-        parts.append(str(exam_score))
+    if pass_score > 0:
+        parts.append(f"🥳{pass_score}")
+    if fail_score > 0:
+        parts.append(f"😭{fail_score}")
     return " ".join(parts) if parts else "-"
 
 
@@ -245,7 +243,7 @@ def render_week_md(
         row.append(str(total_score))
         lines.append("| " + " | ".join(row) + " |\n")
 
-    lines.append("\n- Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)\n\n")
+    lines.append("\n- Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점, Study는 하루 1회만 인정)\n\n")
     lines.append("## 📚 TIL Summary\n\n")
 
     for idx_user, u in enumerate(users_for_week):
@@ -290,6 +288,9 @@ def main():
     cheer_count_by_day = defaultdict(int)
     cheer_once_per_issue = set()
 
+    # study 하루 1회 제한용
+    study_scored_days = set()
+
     issue_comments = {}
 
     # 주차별 week 페이지 데이터
@@ -300,7 +301,9 @@ def main():
     weekly_tils = defaultdict(lambda: defaultdict(list))
 
     # scoreboard 표용
-    weekly_breakdown = defaultdict(lambda: defaultdict(lambda: {"study": 0, "cheer": 0, "exam": 0}))
+    weekly_breakdown = defaultdict(
+        lambda: defaultdict(lambda: {"study": 0, "cheer": 0, "pass": 0, "fail": 0})
+    )
 
     today = datetime.now(KST).date()
     current_week_number = week_index_from_study(today)
@@ -323,9 +326,7 @@ def main():
             if created_day >= STUDY_START:
                 wk = week_index_from_study(created_day)
 
-                weekly_scores[wk][user]["study"] += STUDY_SCORE
-                weekly_day_scores[wk][user][created_dt.weekday()]["study"] += STUDY_SCORE
-
+                # TIL summary는 여러 개 남길 수 있도록 그대로 수집
                 til_text = extract_til(issue.get("body", ""))
                 if til_text:
                     weekly_tils[wk][user].append({
@@ -334,16 +335,38 @@ def main():
                         "created": created_dt,
                     })
 
-                weekly_breakdown[user][wk]["study"] += STUDY_SCORE
+                # study 점수는 하루 1회만 인정
+                study_day_key = (user, created_day)
+                if study_day_key not in study_scored_days:
+                    study_scored_days.add(study_day_key)
+
+                    weekly_scores[wk][user]["study"] += STUDY_SCORE
+                    weekly_day_scores[wk][user][created_dt.weekday()]["study"] += STUDY_SCORE
+                    weekly_breakdown[user][wk]["study"] += STUDY_SCORE
 
             if created_day >= SCORE_START:
-                total_scores[user] += STUDY_SCORE
-                logs[user].append(f"{created_day} study +{STUDY_SCORE} ({issue_link(issue_num)})")
-                stats["study"] += 1
-                study_count[user] += 1
-                weekday_activity[created_dt.weekday()] += 1
-                time_activity[time_bucket(created_dt.hour)] += 1
-                study_days_for_stats[user].add(created_day)
+                study_day_key = (user, created_day)
+                if study_day_key in study_scored_days:
+                    # 이미 위에서 최초 1회 등록되었거나,
+                    # 더 과거 issue라도 set 기준으로 하루 1회만 통과
+                    # total/log/stats도 최초 1회만 반영되어야 하므로
+                    pass
+
+                # total/log/stats용도 하루 1회만 인정
+                total_day_key = ("study_total", user, created_day)
+                if not hasattr(main, "_study_total_scored_days"):
+                    main._study_total_scored_days = set()
+
+                if total_day_key not in main._study_total_scored_days:
+                    main._study_total_scored_days.add(total_day_key)
+
+                    total_scores[user] += STUDY_SCORE
+                    logs[user].append(f"{created_day} study +{STUDY_SCORE} ({issue_link(issue_num)})")
+                    stats["study"] += 1
+                    study_count[user] += 1
+                    weekday_activity[created_dt.weekday()] += 1
+                    time_activity[time_bucket(created_dt.hour)] += 1
+                    study_days_for_stats[user].add(created_day)
 
             comments = fetch_comments(issue_num)
             issue_comments[issue_num] = comments
@@ -391,7 +414,7 @@ def main():
 
             if created_day >= STUDY_START:
                 wk = week_index_from_study(created_day)
-                weekly_breakdown[user][wk]["exam"] += PASS_SCORE
+                weekly_breakdown[user][wk]["pass"] += PASS_SCORE
 
         if FAIL_LABEL in labels:
             if created_day >= SCORE_START:
@@ -401,7 +424,7 @@ def main():
 
             if created_day >= STUDY_START:
                 wk = week_index_from_study(created_day)
-                weekly_breakdown[user][wk]["exam"] += FAIL_SCORE
+                weekly_breakdown[user][wk]["fail"] += FAIL_SCORE
 
     ranked_total = sorted(total_scores.items(), key=lambda x: (-x[1], x[0]))
 
@@ -465,12 +488,19 @@ def main():
         row = [medal(i), name(u)]
         for wk in range(1, max_week + 1):
             bd = weekly_breakdown[u][wk]
-            row.append(format_score_by_week_cell(bd["study"], bd["cheer"], bd["exam"]))
+            row.append(
+                format_score_by_week_cell(
+                    bd["study"],
+                    bd["cheer"],
+                    bd["pass"],
+                    bd["fail"],
+                )
+            )
         row.append(str(total_scores[u]))
         scoreboard_lines.append("| " + " | ".join(row) + " |\n")
 
     scoreboard_lines.append(
-        "\n- Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점), 🥳 Exam Pass +10, 😭 Exam Fail +5\n\n"
+        "\n- Legend: ✅ Study +3 (하루 1회만 인정), 💬 Cheer +1 (하루 최대 3점), 🥳 Exam Pass +10, 😭 Exam Fail +5\n\n"
     )
 
     scoreboard_lines.append("## 🔥 Study History\n\n")
