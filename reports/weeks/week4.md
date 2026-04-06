@@ -1,14 +1,14 @@
 # Week 4 (2026-03-30 ~ 2026-04-05)
 
-## 🏅 Weekly MVP: 고희주 (15 points)
+## 🏅 Weekly MVP: 빈정원 (15 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+6 💬+3 | 15 |
 | 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | ✅+3 💬+3 | 15 |
 | 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ✅+3 💬+2 | 14 |
+| 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+3 💬+3 | 12 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ✅+3 | 6 |
 | 정지우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 💬+1 | 4 |
 | 최준현 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
@@ -16,50 +16,9 @@
 | 손민우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
 | 원동희 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
 
-- Legend: ✅ Study +3, 💬 Cheer +1 (하루 최대 3점)
+- Legend: ✅ Study +3 (하루 1회만 인정), 💬 Cheer +1 (하루 최대 3점)
 
 ## 📚 TIL Summary
-
-### 👤 고희주
-
-#### [260331] 공부 인증
-
-- AWS SAA 3시간 완성 강의 수강 (https://youtu.be/zBwikdaBqGA?si=EhfXzvp4e_qm3_fW)
-   - Cloud 기본 개념 및 AWS 빈출 서비스 노션 정리 및 문제 풀이
-
-##
-
-#### [260404] 공부 인증
-
-- **S3**
-  - 스토리지 클래스 유형
-  - 버전 관리, 객체 잠금, 수명 주기 정책
-  - 암호화
-  - 문제 풀이
-- **스토리지**
-  - EBS
-  - EFS
-  - FSx
-  - 문제 풀이
-
-##
-
-#### [260405] 공부 인증
-
-- **데이터 전송**
-  - DataSync
-  - Snowball Edge
-  - Transfer Family
-  - Storage Gateway
-  - 문제 풀이
-- **데이터베이스**
-  - RDS
-  - Aurora
-  - DynamoDB
-  - ElastiCache
-  - 문제 풀이
-
----
 
 ### 👤 빈정원
 
@@ -115,6 +74,47 @@
 - terraform-associate-004-practice-exams Udemy 모의고사 1회 클리어
 - terraform-associate-004 덤프 128문제 클리어
 - Validation, Precondition, Postcondition Block 정리 완료
+
+---
+
+### 👤 고희주
+
+#### [260331] 공부 인증
+
+- AWS SAA 3시간 완성 강의 수강 (https://youtu.be/zBwikdaBqGA?si=EhfXzvp4e_qm3_fW)
+   - Cloud 기본 개념 및 AWS 빈출 서비스 노션 정리 및 문제 풀이
+
+##
+
+#### [260404] 공부 인증
+
+- **S3**
+  - 스토리지 클래스 유형
+  - 버전 관리, 객체 잠금, 수명 주기 정책
+  - 암호화
+  - 문제 풀이
+- **스토리지**
+  - EBS
+  - EFS
+  - FSx
+  - 문제 풀이
+
+##
+
+#### [260405] 공부 인증
+
+- **데이터 전송**
+  - DataSync
+  - Snowball Edge
+  - Transfer Family
+  - Storage Gateway
+  - 문제 풀이
+- **데이터베이스**
+  - RDS
+  - Aurora
+  - DynamoDB
+  - ElastiCache
+  - 문제 풀이
 
 ---
 
