@@ -1,14 +1,14 @@
 ## 🏅 Award
 
-- 🏆 Total MVP: 빈정원 (80 points)
-- 🎉 Most Cheerful: 빈정원 (26 cheers)
+- 🏆 Total MVP: 빈정원 (81 points)
+- 🎉 Most Cheerful: 빈정원 (27 cheers)
 - 🔥 Longest Streak: 빈정원 (6 streaks)
 
 ## 📊 Score by Week
 
 | Rank | User | Week1 | Week2 | Week3 | Week4 | Week5 | Total |
 |---|---|---|---|---|---|---|---|
-| 🥇 | 빈정원 | ✅9 💬2 | ✅12 💬6 | ✅18 💬8 | ✅9 💬6 🥳10 😭5 | 💬6 | 80 |
+| 🥇 | 빈정원 | ✅9 💬2 | ✅12 💬6 | ✅18 💬8 | ✅9 💬6 🥳10 😭5 | 💬7 | 81 |
 | 🥈 | 정윤섭 | - | ✅9 💬2 | ✅3 💬3 | ✅9 💬5 | ✅6 💬3 🥳10 | 50 |
 | 🥉 | 김우현 | ✅3 | ✅6 | ✅6 | ✅6 | ✅3 | 21 |
 | 4 | 고희주 | - | - | - | ✅6 💬6 | ✅6 💬1 | 19 |
