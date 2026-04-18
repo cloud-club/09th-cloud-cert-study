@@ -164,6 +164,7 @@
 
 ## 👤 정지우
 
+- 2026-04-18 study +3 ([#80](https://github.com/cloud-club/09th-cloud-cert-study/issues/80))
 - 2026-04-17 study +3 ([#78](https://github.com/cloud-club/09th-cloud-cert-study/issues/78))
 - 2026-04-17 cheer +1 ([#77](https://github.com/cloud-club/09th-cloud-cert-study/issues/77))
 - 2026-04-17 cheer +1 ([#75](https://github.com/cloud-club/09th-cloud-cert-study/issues/75))
