@@ -6,29 +6,23 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
-
 from config import *
 from messages import CHEER_TEMPLATE, QUOTES
 from users import USER_MAP
 
-
 TOKEN = os.environ["GITHUB_TOKEN"]
 REPO = os.environ["GITHUB_REPOSITORY"]
-
 OWNER, NAME = REPO.split("/")
 API = f"https://api.github.com/repos/{OWNER}/{NAME}"
 REPO_WEB = f"https://github.com/{OWNER}/{NAME}"
-
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
     "Accept": "application/vnd.github+json",
 }
 
 KST = timezone(timedelta(hours=9))
-
 STUDY_START = datetime.fromisoformat(STUDY_START_DATE).date()
 SCORE_START = datetime.fromisoformat(SCORE_START_DATE).date()
-
 WEEKDAY_NAMES = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 
@@ -79,19 +73,15 @@ def fetch_comments(issue_number: int) -> list[dict]:
 def extract_til(body: str) -> str:
     if not body:
         return ""
-
     til_match = re.search(r"(?im)^\s*#{1,6}\s*TIL\s*$", body)
     if not til_match:
         return ""
-
     start = til_match.end()
     next_section = re.search(r"(?im)^\s*#{1,6}\s*TMI\b.*$", body[start:])
-
     if next_section:
-        content = body[start:start + next_section.start()]
+        content = body[start : start + next_section.start()]
     else:
         content = body[start:]
-
     return content.strip()
 
 
@@ -114,18 +104,15 @@ def current_week_range(today):
 def longest_streak(days: set) -> int:
     if not days:
         return 0
-
     ordered = sorted(days)
     best = 1
     cur = 1
-
     for i in range(1, len(ordered)):
         if (ordered[i] - ordered[i - 1]).days == 1:
             cur += 1
         else:
             best = max(best, cur)
             cur = 1
-
     return max(best, cur)
 
 
@@ -133,11 +120,9 @@ def current_streak(days: set) -> int:
     today = datetime.now(KST).date()
     cur = 0
     probe = today
-
     while probe in days:
         cur += 1
         probe -= timedelta(days=1)
-
     return cur
 
 
@@ -194,7 +179,6 @@ def cheer_bot(issue_number: int, user: str, comments: list[dict], weekly_score: 
         score=weekly_score,
         rank=weekly_rank,
     )
-
     requests.post(
         f"{API}/issues/{issue_number}/comments",
         headers=HEADERS,
@@ -207,6 +191,7 @@ def render_week_md(
     week_scores_for_week,
     week_day_scores_for_week,
     week_tils_for_week,
+    all_users: list,
 ) -> str:
     start = week_start(STUDY_START) + timedelta(days=(week_num - 1) * 7)
     end = start + timedelta(days=6)
@@ -216,8 +201,8 @@ def render_week_md(
         for u, scores in week_scores_for_week.items()
     }
 
-    users_for_week = set(week_scores_for_week.keys()) | set(week_tils_for_week.keys())
-    users_for_week = sorted(users_for_week, key=lambda u: (-weekly_total.get(u, 0), u))
+    # 전체 멤버 기준, 점수 있는 사람은 점수 내림차순 / 없는 사람은 뒤로
+    users_for_week = sorted(all_users, key=lambda u: (-weekly_total.get(u, 0), u))
 
     lines = []
     lines.append(f"# Week {week_num} ({start.isoformat()} ~ {end.isoformat()})\n\n")
@@ -233,21 +218,21 @@ def render_week_md(
     for u in users_for_week:
         row = [name(u)]
         total_score = 0
-
         for wd in range(7):
             study_score = week_day_scores_for_week[u][wd]["study"]
             cheer_score = week_day_scores_for_week[u][wd]["cheer"]
             row.append(format_week_cell(study_score, cheer_score))
             total_score += study_score + cheer_score
-
         row.append(str(total_score))
         lines.append("| " + " | ".join(row) + " |\n")
 
     lines.append("\n- Legend: ✅ Study +3 (하루 1회만 인정), 💬 Cheer +1 (하루 최대 3점)\n\n")
+
     lines.append("## 📚 TIL Summary\n\n")
 
     for idx_user, u in enumerate(users_for_week):
         lines.append(f"### 👤 {name(u)}\n\n")
+
         items = sorted(week_tils_for_week.get(u, []), key=lambda x: x["created"])
 
         if not items:
@@ -325,7 +310,6 @@ def main():
             if created_day >= STUDY_START:
                 wk = week_index_from_study(created_day)
 
-                # TIL summary는 여러 개 남길 수 있도록 그대로 수집
                 til_text = extract_til(issue.get("body", ""))
                 if til_text:
                     weekly_tils[wk][user].append({
@@ -334,31 +318,20 @@ def main():
                         "created": created_dt,
                     })
 
-                # study 점수는 하루 1회만 인정
                 study_day_key = (user, created_day)
                 if study_day_key not in study_scored_days:
                     study_scored_days.add(study_day_key)
-
                     weekly_scores[wk][user]["study"] += STUDY_SCORE
                     weekly_day_scores[wk][user][created_dt.weekday()]["study"] += STUDY_SCORE
                     weekly_breakdown[user][wk]["study"] += STUDY_SCORE
 
             if created_day >= SCORE_START:
-                study_day_key = (user, created_day)
-                if study_day_key in study_scored_days:
-                    # 이미 위에서 최초 1회 등록되었거나,
-                    # 더 과거 issue라도 set 기준으로 하루 1회만 통과
-                    # total/log/stats도 최초 1회만 반영되어야 하므로
-                    pass
-
-                # total/log/stats용도 하루 1회만 인정
                 total_day_key = ("study_total", user, created_day)
                 if not hasattr(main, "_study_total_scored_days"):
                     main._study_total_scored_days = set()
 
                 if total_day_key not in main._study_total_scored_days:
                     main._study_total_scored_days.add(total_day_key)
-
                     total_scores[user] += STUDY_SCORE
                     logs[user].append(f"{created_day} study +{STUDY_SCORE} ({issue_link(issue_num)})")
                     stats["study"] += 1
@@ -367,50 +340,47 @@ def main():
                     time_activity[time_bucket(created_dt.hour)] += 1
                     study_days_for_stats[user].add(created_day)
 
-            comments = fetch_comments(issue_num)
-            issue_comments[issue_num] = comments
+        comments = fetch_comments(issue_num)
+        issue_comments[issue_num] = comments
 
-            for c in comments:
-                cu = c["user"]["login"]
+        for c in comments:
+            cu = c["user"]["login"]
+            if is_excluded_user(cu):
+                continue
+            if cu == user:
+                continue
 
-                if is_excluded_user(cu):
-                    continue
+            c_dt = to_kst(c["created_at"])
+            c_day = c_dt.date()
 
-                if cu == user:
-                    continue
+            once_key = (issue_num, cu)
+            if once_key in cheer_once_per_issue:
+                continue
 
-                c_dt = to_kst(c["created_at"])
-                c_day = c_dt.date()
+            daily_key = (cu, c_day)
+            if cheer_count_by_day[daily_key] >= CHEER_LIMIT:
+                continue
 
-                once_key = (issue_num, cu)
-                if once_key in cheer_once_per_issue:
-                    continue
+            cheer_once_per_issue.add(once_key)
+            cheer_count_by_day[daily_key] += 1
 
-                daily_key = (cu, c_day)
-                if cheer_count_by_day[daily_key] >= CHEER_LIMIT:
-                    continue
+            if c_day >= STUDY_START:
+                wk = week_index_from_study(c_day)
+                weekly_scores[wk][cu]["cheer"] += CHEER_SCORE
+                weekly_day_scores[wk][cu][c_dt.weekday()]["cheer"] += CHEER_SCORE
+                weekly_breakdown[cu][wk]["cheer"] += CHEER_SCORE
 
-                cheer_once_per_issue.add(once_key)
-                cheer_count_by_day[daily_key] += 1
-
-                if c_day >= STUDY_START:
-                    wk = week_index_from_study(c_day)
-                    weekly_scores[wk][cu]["cheer"] += CHEER_SCORE
-                    weekly_day_scores[wk][cu][c_dt.weekday()]["cheer"] += CHEER_SCORE
-                    weekly_breakdown[cu][wk]["cheer"] += CHEER_SCORE
-
-                if c_day >= SCORE_START:
-                    total_scores[cu] += CHEER_SCORE
-                    logs[cu].append(f"{c_day} cheer +{CHEER_SCORE} ({issue_link(issue_num)})")
-                    stats["cheer"] += 1
-                    cheer_user[cu] += 1
+            if c_day >= SCORE_START:
+                total_scores[cu] += CHEER_SCORE
+                logs[cu].append(f"{c_day} cheer +{CHEER_SCORE} ({issue_link(issue_num)})")
+                stats["cheer"] += 1
+                cheer_user[cu] += 1
 
         if PASS_LABEL in labels:
             if created_day >= SCORE_START:
                 total_scores[user] += PASS_SCORE
-                logs[user].append(f"{created_day} exam-pass 🥳+{PASS_SCORE} ({issue_link(issue_num)})")
+                logs[user].append(f"{created_day} cert-pass 🥳+{PASS_SCORE} ({issue_link(issue_num)})")
                 stats["pass"] += 1
-
             if created_day >= STUDY_START:
                 wk = week_index_from_study(created_day)
                 weekly_breakdown[user][wk]["pass"] += PASS_SCORE
@@ -418,9 +388,8 @@ def main():
         if FAIL_LABEL in labels:
             if created_day >= SCORE_START:
                 total_scores[user] += FAIL_SCORE
-                logs[user].append(f"{created_day} exam-fail 😭+{FAIL_SCORE} ({issue_link(issue_num)})")
+                logs[user].append(f"{created_day} cert-fail 😭+{FAIL_SCORE} ({issue_link(issue_num)})")
                 stats["fail"] += 1
-
             if created_day >= STUDY_START:
                 wk = week_index_from_study(created_day)
                 weekly_breakdown[user][wk]["fail"] += FAIL_SCORE
@@ -447,9 +416,11 @@ def main():
         comments = issue_comments.get(issue_num, [])
         cheer_bot(issue_num, user, comments, current_week_total.get(user, 0), weekly_rank_map.get(user, 0))
 
+    # 전체 멤버 목록 (excluded 제외)
+    all_users = [u for u in USER_MAP if not is_excluded_user(u)]
+
     # scoreboard.md
     scoreboard_lines = []
-
     scoreboard_lines.append("## 🏅 Award\n\n")
 
     if ranked_total:
@@ -499,7 +470,7 @@ def main():
         scoreboard_lines.append("| " + " | ".join(row) + " |\n")
 
     scoreboard_lines.append(
-        "\n- Legend: ✅ Study +3 (하루 1회만 인정), 💬 Cheer +1 (하루 최대 3점), 🥳 Exam Pass +10, 😭 Exam Fail +5\n\n"
+        "\n- Legend: ✅ Study +3 (하루 1회만 인정), 💬 Cheer +1 (하루 최대 3점), 🥳 Cert Pass +10, 😭 Cert Fail +5\n\n"
     )
 
     scoreboard_lines.append("## 🔥 Study History\n\n")
@@ -508,7 +479,6 @@ def main():
 
     history_start = STUDY_START
     history_end = today
-
     for u in ordered_users:
         days = study_days[u]
         cur = current_streak(days)
@@ -530,6 +500,7 @@ def main():
             weekly_scores[wk],
             weekly_day_scores[wk],
             weekly_tils[wk],
+            all_users,
         )
         (weeks_dir / f"week{wk}.md").write_text(content, encoding="utf-8")
 
@@ -538,32 +509,29 @@ def main():
         weekly_scores[current_week_number],
         weekly_day_scores[current_week_number],
         weekly_tils[current_week_number],
+        all_users,
     )
     Path("reports/weekly.md").write_text(latest_week_content, encoding="utf-8")
 
     # log.md
     log_lines = ["# 🧾 Score Log\n\n"]
-
     for u, entries in sorted(logs.items(), key=lambda x: name(x[0])):
         log_lines.append(f"## 👤 {name(u)}\n\n")
         for entry in entries:
             log_lines.append(f"- {entry}\n")
         log_lines.append("\n---\n\n")
-
     Path("reports/log.md").write_text("".join(log_lines), encoding="utf-8")
 
     # stats.md
     total_study_days = len(set().union(*study_days_for_stats.values())) if study_days_for_stats else 0
-
     pass_rate = 0
     if stats["pass"] + stats["fail"] > 0:
         pass_rate = round(stats["pass"] / (stats["pass"] + stats["fail"]) * 100)
 
     stats_lines = []
     stats_lines.append("# 📊 Study Statistics\n\n")
-
     stats_lines.append("## 📌 Activity\n\n")
-    stats_lines.append("| Study 인증 | Cheer 댓글 | 시험 합격 | 시험 불합격 | Total Study Days |\n")
+    stats_lines.append("| Study 인증 | Cheer 댓글 | 자격증 합격 | 자격증 불합격 | Total Study Days |\n")
     stats_lines.append("|:---:|:---:|:---:|:---:|:---:|\n")
     stats_lines.append(f"| {stats['study']} | {stats['cheer']} | {stats['pass']} | {stats['fail']} | {total_study_days} days |\n")
 
