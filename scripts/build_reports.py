@@ -251,12 +251,11 @@ def render_week_md(
         items = sorted(week_tils_for_week.get(u, []), key=lambda x: x["created"])
 
         if not items:
-            lines.append("- 이번 주 `#TIL` 기록 없음\n\n")
+            lines.append("- 이번 주 공부 인증 기록 없음\n\n")
         else:
             for idx_item, item in enumerate(items):
                 lines.append(f"#### {item['title']}\n\n")
                 lines.append(item["body"].rstrip() + "\n\n")
-
                 if idx_item < len(items) - 1:
                     lines.append("##\n\n")
 
