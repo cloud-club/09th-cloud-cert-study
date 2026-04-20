@@ -6,10 +6,13 @@
 |:---:|:---:|:---:|:---:|
 | 67 | 87 | 2 | 1 |
 
-## 📈 Weekly Participation
+## 🎓 Certification Results
 
-> 전체 기준 인원: 9명  
-> 참여 인원: 해당 주차 스터디 인증 1회 이상 인원
+| Pass | Fail | Pass Rate |
+|:---:|:---:|:---:|
+| 2 | 1 | 67% |
+
+## 📈 Weekly Participation
 
 | Week | Participants | Rate |
 |:---:|:---:|:---:|
@@ -20,12 +23,9 @@
 | Week5 | 8 | 89% |
 | Week6 | 7 | 78% |
 | Week7 | 1 | 11% |
+> 전체 기준 인원: 9명
+> 참여 인원: 해당 주차 스터디 인증 1회 이상 인원
 
-## 🎓 Certification Results
-
-| Pass | Fail | Pass Rate |
-|:---:|:---:|:---:|
-| 2 | 1 | 67% |
 
 ## 📅 Study Activity by Weekday
 
