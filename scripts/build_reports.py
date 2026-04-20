@@ -311,7 +311,7 @@ def render_week_md(
         lines.append("| " + " | ".join(row) + " |\n")
 
     lines.append(
-        "\n- Legend: ✅ Study +3 (하루 1회만 인정), "
+        "\n> ✅ Study +3 (하루 1회만 인정), "
         "💬 Cheer +1 (하루 최대 3점)\n\n"
     )
 
@@ -662,7 +662,7 @@ def main():
         )
 
     scoreboard_lines.append(
-        "\n- Legend: "
+        "\n> "
         "✅ Study +3 (하루 1회만 인정), "
         "💬 Cheer +1 (하루 최대 3점), "
         "🥳 Cert Pass +10, "
@@ -770,12 +770,18 @@ def main():
         f"| {stats['study']} | {stats['cheer']} | "
         f"{stats['pass']} | {stats['fail']} |\n"
     )
+
+    # 2. Certification Results
+    stats_lines.append("\n## 🎓 Certification Results\n\n")
+    stats_lines.append("| Pass | Fail | Pass Rate |\n")
+    stats_lines.append("|:---:|:---:|:---:|\n")
+    stats_lines.append(
+        f"| {stats['pass']} | {stats['fail']} | "
+        f"{pass_rate}% |\n"
+    )
     
-    # 2. Weekly Participation
-    stats_lines.append("\n## 📈 Weekly Participation\n\n")
-    stats_lines.append(f"> 전체 기준 인원: {total_members}명  \n")
-    stats_lines.append("> 참여 인원: 해당 주차 스터디 인증 1회 이상 인원\n\n")
-    
+    # 3. Weekly Participation
+    stats_lines.append("\n## 📈 Weekly Participation\n\n") 
     stats_lines.append("| Week | Participants | Rate |\n")
     stats_lines.append("|:---:|:---:|:---:|\n")
     
@@ -793,15 +799,9 @@ def main():
         stats_lines.append(
             f"| Week{wk} | {participants} | {rate}% |\n"
         )
-    
-    # 3. Certification Results
-    stats_lines.append("\n## 🎓 Certification Results\n\n")
-    stats_lines.append("| Pass | Fail | Pass Rate |\n")
-    stats_lines.append("|:---:|:---:|:---:|\n")
-    stats_lines.append(
-        f"| {stats['pass']} | {stats['fail']} | "
-        f"{pass_rate}% |\n"
-    )
+
+    stats_lines.append(f"> 전체 기준 인원: {total_members}명\n")
+    stats_lines.append("> 참여 인원: 해당 주차 스터디 인증 1회 이상 인원\n\n")
     
     # 4. Study Activity by Weekday
     stats_lines.append("\n## 📅 Study Activity by Weekday\n\n")
