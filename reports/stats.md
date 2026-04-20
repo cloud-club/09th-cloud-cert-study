@@ -6,17 +6,20 @@
 |:---:|:---:|:---:|:---:|
 | 67 | 87 | 2 | 1 |
 
-## 📈 Attendance Rate
+## 📈 Weekly Participation
 
-| Week | 참여 인원 | 전체 인원 | 출석률 |
-|:---:|:---:|:---:|:---:|
-| Week1 | 3 | 9 | 33% |
-| Week2 | 5 | 9 | 56% |
-| Week3 | 7 | 9 | 78% |
-| Week4 | 9 | 9 | 100% |
-| Week5 | 8 | 9 | 89% |
-| Week6 | 7 | 9 | 78% |
-| Week7 | 1 | 9 | 11% |
+> 전체 기준 인원: 9명  
+> 참여 인원: 해당 주차 스터디 인증 1회 이상 인원
+
+| Week | Participants | Rate |
+|:---:|:---:|:---:|
+| Week1 | 3 | 33% |
+| Week2 | 5 | 56% |
+| Week3 | 7 | 78% |
+| Week4 | 9 | 100% |
+| Week5 | 8 | 89% |
+| Week6 | 7 | 78% |
+| Week7 | 1 | 11% |
 
 ## 🎓 Certification Results
 
@@ -32,6 +35,9 @@
 
 ## ⏰ Study Activity by Time
 
-| 🌅 Morning (06-12) | ☀️ Afternoon (12-18) | 🌙 Evening (18-24) | 🌃 Night (00-06) |
-|:---:|:---:|:---:|:---:|
-| 1 | 10 | 53 | 3 |
+| Time | Count |
+|:---|:---:|
+| 🌅 Morning (06-12) | 1 |
+| ☀️ Afternoon (12-18) | 10 |
+| 🌙 Evening (18-24) | 53 |
+| 🌃 Night (00-06) | 3 |
