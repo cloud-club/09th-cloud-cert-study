@@ -750,31 +750,65 @@ def main():
         if study_days_for_stats
         else 0
     )
-
+    
     pass_rate = 0
-
     if stats["pass"] + stats["fail"] > 0:
         pass_rate = round(
             stats["pass"]
             / (stats["pass"] + stats["fail"])
             * 100
         )
-
+    
+    # Attendance Rate 계산
+    total_members = len(all_users)
+    max_week_for_stats = max(weekly_scores.keys()) if weekly_scores else 0
+    
     stats_lines = []
-
+    
     stats_lines.append("# 📊 Study Statistics\n\n")
+    
+    # 1. Activity
     stats_lines.append("## 📌 Activity\n\n")
     stats_lines.append(
-        "| Study 인증 | Cheer 댓글 | 자격증 합격 | "
-        "자격증 불합격 | Total Study Days |\n"
+        "| Study 인증 | Cheer 댓글 | 자격증 합격 | 자격증 불합격 |\n"
     )
-    stats_lines.append("|:---:|:---:|:---:|:---:|:---:|\n")
+    stats_lines.append("|:---:|:---:|:---:|:---:|\n")
     stats_lines.append(
         f"| {stats['study']} | {stats['cheer']} | "
-        f"{stats['pass']} | {stats['fail']} | "
-        f"{total_study_days} days |\n"
+        f"{stats['pass']} | {stats['fail']} |\n"
     )
-
+    
+    # 2. Attendance Rate
+    stats_lines.append("\n## 📈 Attendance Rate\n\n")
+    stats_lines.append("| Week | 참여 인원 | 전체 인원 | 출석률 |\n")
+    stats_lines.append("|:---:|:---:|:---:|:---:|\n")
+    
+    for wk in range(1, max_week_for_stats + 1):
+        participants = sum(
+            1
+            for u in all_users
+            if weekly_breakdown[u][wk]["study"] > 0
+        )
+    
+        rate = 0
+        if total_members > 0:
+            rate = round(participants / total_members * 100)
+    
+        stats_lines.append(
+            f"| Week{wk} | {participants} | "
+            f"{total_members} | {rate}% |\n"
+        )
+    
+    # 3. Certification Results
+    stats_lines.append("\n## 🎓 Certification Results\n\n")
+    stats_lines.append("| Pass | Fail | Pass Rate |\n")
+    stats_lines.append("|:---:|:---:|:---:|\n")
+    stats_lines.append(
+        f"| {stats['pass']} | {stats['fail']} | "
+        f"{pass_rate}% |\n"
+    )
+    
+    # 4. Weekday
     stats_lines.append("\n## 📅 Study Activity by Weekday\n\n")
     stats_lines.append("| Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n")
     stats_lines.append("|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n")
@@ -784,7 +818,8 @@ def main():
         f"{weekday_activity[4]} | {weekday_activity[5]} | "
         f"{weekday_activity[6]} |\n"
     )
-
+    
+    # 5. Time
     stats_lines.append("\n## ⏰ Study Activity by Time\n\n")
     stats_lines.append(
         "| 🌅 Morning (06-12) | ☀️ Afternoon (12-18) | "
@@ -797,20 +832,11 @@ def main():
         f"{time_activity['🌙 Evening (18-24)']} | "
         f"{time_activity['🌃 Night (00-06)']} |\n"
     )
-
-    stats_lines.append("\n## 🎓 Certification Progress\n\n")
-    stats_lines.append("| Pass | Fail | Pass Rate |\n")
-    stats_lines.append("|:---:|:---:|:---:|\n")
-    stats_lines.append(
-        f"| {stats['pass']} | {stats['fail']} | "
-        f"{pass_rate}% |\n"
-    )
-
+    
     Path("reports/stats.md").write_text(
         "".join(stats_lines),
         encoding="utf-8",
     )
-
 
 if __name__ == "__main__":
     main()
