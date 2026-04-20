@@ -745,12 +745,6 @@ def main():
     )
 
     # stats.md
-    total_study_days = (
-        len(set().union(*study_days_for_stats.values()))
-        if study_days_for_stats
-        else 0
-    )
-    
     pass_rate = 0
     if stats["pass"] + stats["fail"] > 0:
         pass_rate = round(
@@ -759,7 +753,6 @@ def main():
             * 100
         )
     
-    # Attendance Rate 계산
     total_members = len(all_users)
     max_week_for_stats = max(weekly_scores.keys()) if weekly_scores else 0
     
@@ -778,10 +771,13 @@ def main():
         f"{stats['pass']} | {stats['fail']} |\n"
     )
     
-    # 2. Attendance Rate
-    stats_lines.append("\n## 📈 Attendance Rate\n\n")
-    stats_lines.append("| Week | 참여 인원 | 전체 인원 | 출석률 |\n")
-    stats_lines.append("|:---:|:---:|:---:|:---:|\n")
+    # 2. Weekly Participation
+    stats_lines.append("\n## 📈 Weekly Participation\n\n")
+    stats_lines.append(f"> 전체 기준 인원: {total_members}명  \n")
+    stats_lines.append("> 참여 인원: 해당 주차 스터디 인증 1회 이상 인원\n\n")
+    
+    stats_lines.append("| Week | Participants | Rate |\n")
+    stats_lines.append("|:---:|:---:|:---:|\n")
     
     for wk in range(1, max_week_for_stats + 1):
         participants = sum(
@@ -795,8 +791,7 @@ def main():
             rate = round(participants / total_members * 100)
     
         stats_lines.append(
-            f"| Week{wk} | {participants} | "
-            f"{total_members} | {rate}% |\n"
+            f"| Week{wk} | {participants} | {rate}% |\n"
         )
     
     # 3. Certification Results
@@ -808,7 +803,7 @@ def main():
         f"{pass_rate}% |\n"
     )
     
-    # 4. Weekday
+    # 4. Study Activity by Weekday
     stats_lines.append("\n## 📅 Study Activity by Weekday\n\n")
     stats_lines.append("| Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n")
     stats_lines.append("|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n")
@@ -819,18 +814,21 @@ def main():
         f"{weekday_activity[6]} |\n"
     )
     
-    # 5. Time
+    # 5. Study Activity by Time (4행 2열)
     stats_lines.append("\n## ⏰ Study Activity by Time\n\n")
+    stats_lines.append("| Time | Count |\n")
+    stats_lines.append("|:---|:---:|\n")
     stats_lines.append(
-        "| 🌅 Morning (06-12) | ☀️ Afternoon (12-18) | "
-        "🌙 Evening (18-24) | 🌃 Night (00-06) |\n"
+        f"| 🌅 Morning (06-12) | {time_activity['🌅 Morning (06-12)']} |\n"
     )
-    stats_lines.append("|:---:|:---:|:---:|:---:|\n")
     stats_lines.append(
-        f"| {time_activity['🌅 Morning (06-12)']} | "
-        f"{time_activity['☀️ Afternoon (12-18)']} | "
-        f"{time_activity['🌙 Evening (18-24)']} | "
-        f"{time_activity['🌃 Night (00-06)']} |\n"
+        f"| ☀️ Afternoon (12-18) | {time_activity['☀️ Afternoon (12-18)']} |\n"
+    )
+    stats_lines.append(
+        f"| 🌙 Evening (18-24) | {time_activity['🌙 Evening (18-24)']} |\n"
+    )
+    stats_lines.append(
+        f"| 🌃 Night (00-06) | {time_activity['🌃 Night (00-06)']} |\n"
     )
     
     Path("reports/stats.md").write_text(
