@@ -2,9 +2,9 @@
 
 ## 📌 Activity
 
-| Study 인증 | Cheer 댓글 | 시험 합격 | 시험 불합격 | Total Study Days |
+| Study 인증 | Cheer 댓글 | 자격증 합격 | 자격증 불합격 | Total Study Days |
 |:---:|:---:|:---:|:---:|:---:|
-| 66 | 81 | 2 | 1 | 30 days |
+| 66 | 87 | 2 | 1 | 30 days |
 
 ## 📅 Study Activity by Weekday
 

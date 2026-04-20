@@ -6,12 +6,12 @@
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
+| 정윤섭 | ⬜ | ✅+3 💬+1 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ✅+3 💬+2 | 15 |
 | 빈정원 | ⬜ | 💬+1 | ✅+3 💬+2 | ✅+3 | ⬜ | ⬜ | ✅+3 💬+3 | 15 |
-| 정윤섭 | ⬜ | ✅+3 | 💬+1 | ⬜ | 💬+1 | ✅+3 💬+1 | ✅+3 💬+2 | 14 |
 | 고희주 | ⬜ | ✅+3 | 💬+1 | 💬+2 | ⬜ | ⬜ | ✅+3 💬+3 | 12 |
 | 김우현 | ⬜ | ⬜ | ✅+3 | ⬜ | ⬜ | ⬜ | ✅+3 | 6 |
-| 정지우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 💬+1 | 4 |
-| 최준현 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
+| 정지우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 💬+2 | 5 |
+| 최준현 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 💬+1 | 4 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | ⬜ | 3 |
 | 손민우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
 | 원동희 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ✅+3 | 3 |
@@ -19,29 +19,6 @@
 - Legend: ✅ Study +3 (하루 1회만 인정), 💬 Cheer +1 (하루 최대 3점)
 
 ## 📚 TIL Summary
-
-### 👤 빈정원
-
-#### [260401] 공부 인증
-
-- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
-
-##
-
-#### [260402] 공부 인증
-
-- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 6~17 수강
-
-##
-
-#### [260405] 공부 인증
-
-- CKA 합격 후기 작성 
-- RHCSA 합격 후기 찾아보기
-- RHCSA Rapid Track(RH199) 강의 수강 및 실습
-  - 1장. Red Hat 지원을 위한 시스템 등록
-
----
 
 ### 👤 정윤섭
 
@@ -74,6 +51,29 @@
 - terraform-associate-004-practice-exams Udemy 모의고사 1회 클리어
 - terraform-associate-004 덤프 128문제 클리어
 - Validation, Precondition, Postcondition Block 정리 완료
+
+---
+
+### 👤 빈정원
+
+#### [260401] 공부 인증
+
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 1~5 수강
+
+##
+
+#### [260402] 공부 인증
+
+- [유튜브 CKA Scenarios Exam 2026 강의](https://www.youtube.com/playlist?list=PLkDZsCgo3IsoSdKbtzOgT9iRDkHo0IXOl) 6~17 수강
+
+##
+
+#### [260405] 공부 인증
+
+- CKA 합격 후기 작성 
+- RHCSA 합격 후기 찾아보기
+- RHCSA Rapid Track(RH199) 강의 수강 및 실습
+  - 1장. Red Hat 지원을 위한 시스템 등록
 
 ---
 
