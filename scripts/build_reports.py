@@ -665,8 +665,8 @@ def main():
         "\n> "
         "✅ Study +3 (하루 1회만 인정), "
         "💬 Cheer +1 (하루 최대 3점), "
-        "🥳 Cert Pass +10, "
-        "😭 Cert Fail +5\n\n"
+        "🥳 자격증 합격 +10, "
+        "😭 자격증 불합격 +5\n\n"
     )
 
     scoreboard_lines.append("## 🔥 Study History\n\n")
@@ -800,7 +800,7 @@ def main():
             f"| Week{wk} | {participants} | {rate}% |\n"
         )
 
-    stats_lines.append(f"> 전체 기준 인원: {total_members}명\n")
+    stats_lines.append(f"> 전체 기준 인원: {total_members}명  \n")
     stats_lines.append("> 참여 인원: 해당 주차 스터디 인증 1회 이상 인원\n\n")
     
     # 4. Study Activity by Weekday
@@ -817,7 +817,7 @@ def main():
     # 5. Study Activity by Time (4행 2열)
     stats_lines.append("\n## ⏰ Study Activity by Time\n\n")
     stats_lines.append("| Time | Count |\n")
-    stats_lines.append("|:---|:---:|\n")
+    stats_lines.append("|:---:|:---:|\n")
     stats_lines.append(
         f"| 🌅 Morning (06-12) | {time_activity['🌅 Morning (06-12)']} |\n"
     )
