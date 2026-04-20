@@ -69,7 +69,7 @@
 
 #### [260408] 공부 인증
 
-***CKA 스터디 시작합니다***
+***CKA 스터디 시작합니다***  
 
 - 인프런 쿠버네티스 기초 강의 수강 시작
 - 오늘부터 주말까지 Section8까지 완강하고 바로 문제풀이 예정(Section3까진 완료)
@@ -107,7 +107,7 @@
 
 #### [260409] 공부 인증
 
-**[인프런]**
+**[인프런]**  
 쿠버네티스 어나더 클래스 스프린트4 섹션1, 2 완강
 
 ##
@@ -122,7 +122,7 @@
 
 #### [260406] 공부 인증
 
-Introduction to Apache Spark 강의 문제 정리
+Introduction to Apache Spark 강의 문제 정리  
 - 해당 강의에 있는 20개의 문제 정리
 - Spark의 기본 개념과 관련된 문제들
 
@@ -132,7 +132,7 @@ Introduction to Apache Spark 강의 문제 정리
 
 #### [260412] 공부 인증
 
-Section7: Security
+Section7: Security  
 Section8: Storage
 
 ---

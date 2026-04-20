@@ -28,7 +28,7 @@
 
 - > Root Module -> Child Module일때는 variable 변수로 전달하기 / Child -> Root 일때는 output을 통해 전달 / local 통해서 모듈 내부 전용 값
 - > module도 for_each / count로 생성 가능(resource랑 똑같이 적용됨)
-- > Source 개념 정리 완료 
+- > Source 개념 정리 완료
 - > module에서 source, registry version이 바뀌면 terraform init을 다시 실행할 것(버전 업하는 방법은 terraform init - upgrade)
 - > 모듈 구조는 flat module tree를 권장
 
@@ -70,7 +70,7 @@
 
 #### [260405] 공부 인증
 
-- CKA 합격 후기 작성 
+- CKA 합격 후기 작성
 - RHCSA 합격 후기 찾아보기
 - RHCSA Rapid Track(RH199) 강의 수강 및 실습
   - 1장. Red Hat 지원을 위한 시스템 등록
@@ -122,15 +122,15 @@
 
 #### [260401] 공부 인증
 
-**[인프런]**
-Certified Kubernetes Administrator (CKA) – Practical Exam Guide
+**[인프런]**  
+Certified Kubernetes Administrator (CKA) – Practical Exam Guide  
 섹션1, 2, 3, 4, 5, 6 개념 완강
 
 ##
 
 #### [260405] 공부 인증
 
-인프런 CKA – Practical Exam Guide
+인프런 CKA – Practical Exam Guide  
 섹션 1, 2, 3, 4 문제 풀이 완료
 
 ---
@@ -139,19 +139,19 @@ Certified Kubernetes Administrator (CKA) – Practical Exam Guide
 
 #### [260405] 공부 인증
 
-이번주에는 덤프는 못풀었지만, 면접과 과제테스트를 준비하면서 아래 AWS 개념들을 공부했습니다
+이번주에는 덤프는 못풀었지만, 면접과 과제테스트를 준비하면서 아래 AWS 개념들을 공부했습니다  
 
-vpc과 온프레미스 간 연결 옵션
+vpc과 온프레미스 간 연결 옵션  
 - direct connect / site-to-site vpn
 
-vpc 간 연결 옵션
+vpc 간 연결 옵션  
 - transit gateway / vpc peering / private link (더 있지만 이 옵션들만 공부했습니다)
 
-multi-account strategy
+multi-account strategy  
 - organization unit
 - aws control tower
 
-*저저번주에 공부한 내용 블로그에 정리했습니다. 이번주것도 차차.. 여유 생기면 할 예정입니다.
+*저저번주에 공부한 내용 블로그에 정리했습니다. 이번주것도 차차.. 여유 생기면 할 예정입니다.  
 - https://jiu-jung.github.io/amazon-s3-transfer-acceleration/
 - https://jiu-jung.github.io/amazon-athena/
 
@@ -161,9 +161,9 @@ multi-account strategy
 
 #### [260405] 공부 인증
 
-데이터브릭스 아카데미에서 관련 내용을 수강하면 50프로 할인 바우처를 준다는 소문에.
-금주는
-- 
+데이터브릭스 아카데미에서 관련 내용을 수강하면 50프로 할인 바우처를 준다는 소문에.  
+금주는  
+-  
 <img width="921" height="341" alt="Image" src="https://github.com/user-attachments/assets/c72d86f4-8b6f-46c0-9390-a8014101d0fb" />
 
 ---

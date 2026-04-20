@@ -67,7 +67,7 @@
 
 #### [260322] 공부 인증
 
-<img width="923" height="1086" alt="Image" src="https://github.com/user-attachments/assets/594ff634-3a70-41a7-a74c-156470139ff8" />
+<img width="923" height="1086" alt="Image" src="https://github.com/user-attachments/assets/594ff634-3a70-41a7-a74c-156470139ff8" />  
 
 현재까지는.. 요렇습니당
 
@@ -75,8 +75,8 @@
 
 #### [260329] 공부 인증
 
-Claude Code in Action을 마무리했습니다. 
-다음은.. cowork를 이어서 할 예정이고
+Claude Code in Action을 마무리했습니다.  
+다음은.. cowork를 이어서 할 예정이고  
 현재 회사에서 자격증 지원이 상반기동안 어떻게 될지 몰라서, 당장 등록은 하지 않고 https://sites.google.com/view/2026-study-jams/h1-study-jam 구글 스터디잼을 등록했습니다. 이걸로 04.01~06.01동안 클클 9기동안 쭉 달려볼까해요.
 
 ---
@@ -135,10 +135,10 @@ Section 6: Cluster Maintenance
 
 #### [260323] 공부 인증
 
-덤프를 처음 풀어봤습니다. 저번에 영어로 보고 회피했는데 한국어로 보니까 할만하네요..
-일단 푼다기보다 정답/오답 근거 정리하고, 리소스 정리하는 식으로 하고 있습니다.
+덤프를 처음 풀어봤습니다. 저번에 영어로 보고 회피했는데 한국어로 보니까 할만하네요..  
+일단 푼다기보다 정답/오답 근거 정리하고, 리소스 정리하는 식으로 하고 있습니다.  
 
-오늘은 두문제를 풀고 Amazon S3 Transfer Acceleration, Amazon Athena를 정리했습니다.
+오늘은 두문제를 풀고 Amazon S3 Transfer Acceleration, Amazon Athena를 정리했습니다.  
 
 정리한 내용은 블로그를 새로 파고 거기다 올릴 예정입니다. 만들면 정리본 링크도 인증에 올리겠습니다
 

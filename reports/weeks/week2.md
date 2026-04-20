@@ -52,12 +52,12 @@
 
 #### [260316] 공부 인증
 
-**OPIc** 
+**OPIc**  
 
 > 오픽노잼 책 공부
 
 - 오픽노잼 실전 모의고사 1,2회
-- 오픽노잼 롤플레이(AL 시리즈 11,12, 20) 
+- 오픽노잼 롤플레이(AL 시리즈 11,12, 20)
 
 > 오픽노잼 주제편
 
@@ -75,12 +75,12 @@
 
 #### [260320] 공부 인증
 
-**Terraform Associate(004) Topic 3 정리**
+**Terraform Associate(004) Topic 3 정리**  
 - Terraform의 코어 워크플로우
 - terraform init, terraform validate,  terraform plan, terraform apply, terraform destory 개념 정리
 
-**오픽노잼 Comparison**
--  IM 시리즈 22 
+**오픽노잼 Comparison**  
+-  IM 시리즈 22
 - MP -> 과거 -> 현재 -> 결론 형태로 진행
 
 ---
@@ -89,11 +89,11 @@
 
 #### [260316] 공부 인증
 
-[Spark 유튜브 강의 정리]
-Apache Spark 이론 완전정복 🚀 | 탄생 배경부터 핵심 특징·아키텍처까지 한 번에!
-https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFgx-t&index=8
+[Spark 유튜브 강의 정리]  
+Apache Spark 이론 완전정복 🚀 | 탄생 배경부터 핵심 특징·아키텍처까지 한 번에!  
+https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFgx-t&index=8  
 
-[자격증 공부량 계획(?)]
+[자격증 공부량 계획(?)]  
 <img width="968" height="1364" alt="Image" src="https://github.com/user-attachments/assets/7703a3ad-c586-4df2-a5db-2a93672c8182" />
 
 ##
@@ -120,7 +120,7 @@ https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFg
 
 #### [260321] 공부 인증
 
-유데미 CKA 섹션 3 Scheduling 수강 및 실습 완료
+유데미 CKA 섹션 3 Scheduling 수강 및 실습 완료  
 유데미 CKA 섹션 4 Logging & Monitoring 수강 및 실습 완료
 
 ---
@@ -129,7 +129,7 @@ https://www.youtube.com/watch?v=mMrpzxYWZ4s&list=PL918La0-0ENbTKGm_2SOIsmpVIDcFg
 
 #### [260318] 공부 인증
 
-Section 3 - Scheduling
+Section 3 - Scheduling  
 Section 4- Logging & Monitoring
 
 ---
