@@ -29,6 +29,7 @@
 
 ## 👤 김우현
 
+- 2026-04-20 study +3 ([#85](https://github.com/cloud-club/09th-cloud-cert-study/issues/85))
 - 2026-04-18 study +3 ([#82](https://github.com/cloud-club/09th-cloud-cert-study/issues/82))
 - 2026-04-17 study +3 ([#79](https://github.com/cloud-club/09th-cloud-cert-study/issues/79))
 - 2026-04-12 study +3 ([#71](https://github.com/cloud-club/09th-cloud-cert-study/issues/71))

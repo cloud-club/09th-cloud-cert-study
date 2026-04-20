@@ -4,19 +4,19 @@
 
 | Study 인증 | Cheer 댓글 | 자격증 합격 | 자격증 불합격 | Total Study Days |
 |:---:|:---:|:---:|:---:|:---:|
-| 66 | 87 | 2 | 1 | 30 days |
+| 67 | 87 | 2 | 1 | 31 days |
 
 ## 📅 Study Activity by Weekday
 
 | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 9 | 7 | 7 | 6 | 6 | 9 | 22 |
+| 10 | 7 | 7 | 6 | 6 | 9 | 22 |
 
 ## ⏰ Study Activity by Time
 
 | 🌅 Morning (06-12) | ☀️ Afternoon (12-18) | 🌙 Evening (18-24) | 🌃 Night (00-06) |
 |:---:|:---:|:---:|:---:|
-| 1 | 10 | 52 | 3 |
+| 1 | 10 | 53 | 3 |
 
 ## 🎓 Certification Progress
 
