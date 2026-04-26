@@ -12,12 +12,12 @@
 | 빈정원 | [@jwbeen](https://github.com/jwbeen) | CKA |
 | 최준현 | [@Cjunhyun](https://github.com/Cjunhyun) | Databricks Spark |
 | 김우현 | [@woody6624](https://github.com/woody6624) | CKA |
-| 정금종 | [@Floodnut](https://github.com/Floodnut) | CKA, 정보처리기사 |
-| 고희주 | [@HeejuKo](https://github.com/HeejuKo) | SAA |
-| 정윤섭 | [@PokingTeemo](https://github.com/PokingTeemo) | CKA, HashiCorp Terraform, OPIc |
+| 정금종 | [@Floodnut](https://github.com/Floodnut) | CKA |
+| 고희주 | [@HeejuKo](https://github.com/HeejuKo) | AWS SAA |
+| 정윤섭 | [@PokingTeemo](https://github.com/PokingTeemo) | CKA, HashiCorp Terraform |
 | 원동희 | [@ddhi7](https://github.com/ddhi7) | CKA |
-| 손민우 | [@MarkSon-42](https://github.com/MarkSon-42) |  Anthropic AI |
-| 정지우 | [@jiu-jung](https://github.com/jiu-jung) | SAA, CKA |
+| 손민우 | [@MarkSon-42](https://github.com/MarkSon-42) | GCP PCA |
+| 정지우 | [@jiu-jung](https://github.com/jiu-jung) | AWS SAA, CKA |
 
 ---
 
