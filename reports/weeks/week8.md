@@ -1,12 +1,12 @@
 # Week 8 (2026-04-27 ~ 2026-05-03)
 
-## 🏅 Weekly MVP: 최준현 (1 points)
+## 🏅 Weekly MVP: 최준현 (4 points)
 
 ## 📆 Week Score
 
 | User | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total |
 |---|---|---|---|---|---|---|---|---|
-| 최준현 | 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 1 |
+| 최준현 | ✅+3 💬+1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 4 |
 | 정금종 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 |
 | 고희주 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 |
 | 손민우 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 |
@@ -22,7 +22,12 @@
 
 ### 👤 최준현
 
-- 이번 주 공부 인증 기록 없음
+#### [260427] 공부 인증
+
+Databricks Spark 관련 문제 풀이  
+
+- Stream Processing and Analysis with Spark 20문제
+- Monitoring and Optimizing Spakr Workloads on Databricks 20문제
 
 ---
 
