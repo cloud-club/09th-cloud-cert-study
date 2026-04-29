@@ -2,6 +2,7 @@
 
 ## 👤 고희주
 
+- 2026-04-29 cert-pass 🥳+10 ([#96](https://github.com/cloud-club/09th-cloud-cert-study/issues/96))
 - 2026-04-27 cheer +1 ([#91](https://github.com/cloud-club/09th-cloud-cert-study/issues/91))
 - 2026-04-23 study +3 ([#88](https://github.com/cloud-club/09th-cloud-cert-study/issues/88))
 - 2026-04-23 cheer +1 ([#87](https://github.com/cloud-club/09th-cloud-cert-study/issues/87))
