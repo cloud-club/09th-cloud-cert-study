@@ -5,8 +5,6 @@ on:
     types: [opened]
   issue_comment:
     types: [created]
-  schedule:
-    - cron: "5 15 * * *"  # KST 00:05
 concurrency:
   group: study-report
   cancel-in-progress: true
